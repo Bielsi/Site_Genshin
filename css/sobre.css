@@ -1,11 +1,55 @@
 :root{
     --cor-fundo: #7a7a7a;
+    --cor-pyro: #d32000;
+    --cor-pyro-trans: #ffae00;
 }
 
-h2{
+p{
     font-family: "Truculenta", sans-serif;
     font-weight: 500;
     font-size: large;
-    border-left: 4px groove #ff0000;
+    border-left: 2px groove #000000;
+    border-right: 2px groove #000000;
+    border-bottom: 2px groove #000000;
+    border-top: 2px groove #000000;
+    padding: 10px;
+    width: 920px;
 }
 
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+figure{
+    border-bottom: 2px groove var(--cor-fundo);
+    border-top: 2px groove var(--cor-fundo);
+}
+
+h2{
+  border: 10px var(--cor-pyro-trans);
+  background-color: var(--cor-pyro);
+  transition: 1s;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  width: 930px;
+  padding: 10px;
+  text-align: center;
+}
+
+h2:hover{
+  border: 10px var(--cor-pyro);
+  background-color: var(--cor-pyro-trans);
+  transition: 1s;
+  margin-left: auto;
+  margin-right: auto;
+  width: 930px;
+  padding: 10px;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 2px #000000;
+}
