@@ -1,7 +1,15 @@
 :root{
     --cor-fundo: #7a7a7a;
-    --cor-pyro: #d32000;
-    --cor-pyro-trans: #ffae00;
+    --cor-anemo: #97f8e0;
+    --cor-anemo-trans: #00e0a8;
+    --cor-geo: #f0ab17;
+    --cor-geo-trans: #964b00;
+    --cor-electro: #e100ff;
+    --cor-electro-trans: #a300a3;
+    --cor-dendro: #69fc5b;
+    --cor-dendro-trans: #30aa00;
+    --cor-hydro: #2eb2ff;
+    --cor-hydro-trans: #0066b9;
 }
 
 p{
@@ -27,9 +35,9 @@ figure{
     border-top: 2px groove var(--cor-fundo);
 }
 
-h2{
-  border: 10px var(--cor-pyro-trans);
-  background-color: var(--cor-pyro);
+#vento{
+  border: 10px var(--cor-anemo-trans);
+  background-color: var(--cor-anemo);
   transition: 1s;
   cursor: pointer;
   margin-left: auto;
@@ -37,19 +45,117 @@ h2{
   width: 930px;
   padding: 10px;
   text-align: center;
+  font-family: "Rajdhani", sans-serif
 }
 
-h2:hover{
-  border: 10px var(--cor-pyro);
-  background-color: var(--cor-pyro-trans);
+#vento:hover{
+  border: 10px var(--cor-anemo);
+  background-color: var(--cor-anemo-trans);
   transition: 1s;
   margin-left: auto;
   margin-right: auto;
   width: 930px;
   padding: 10px;
+  font-family: "Rajdhani", sans-serif
 }
 
 h1{
     text-align: center;
     border-bottom: 2px #000000;
+}
+
+#pedra{
+    border: 10px var(--cor-geo-trans);
+    background-color: var(--cor-geo);
+    transition: 1s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif
+}
+
+#pedra:hover{
+    border: 10px var(--cor-geo);
+    background-color: var(--cor-geo-trans);
+    transition: 1s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding: 10px;
+    font-family: "Rajdhani", sans-serif
+}
+
+#raio{
+    border: 10px var(--cor-electro-trans);
+    background-color: var(--cor-electro);
+    transition: 1s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif
+}
+
+#raio:hover{
+    border: 10px var(--cor-electro);
+    background-color: var(--cor-electro-trans);
+    transition: 1s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding: 10px;
+    font-family: "Rajdhani", sans-serif
+}
+
+#planta{
+    border: 10px var(--cor-dendro-trans);
+    background-color: var(--cor-dendro);
+    transition: 1s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif
+}
+
+#planta:hover{
+    border: 10px var(--cor-dendro);
+    background-color: var(--cor-dendro-trans);
+    transition: 1s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding: 10px;
+    font-family: "Rajdhani", sans-serif
+}
+
+#agua{
+    border: 10px var(--cor-hydro-trans);
+    background-color: var(--cor-hydro);
+    transition: 1s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif
+}
+
+#agua:hover{
+    border: 10px var(--cor-hydro);
+    background-color: var(--cor-hydro-trans);
+    transition: 1s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding: 10px;
+    font-family: "Rajdhani", sans-serif
 }
