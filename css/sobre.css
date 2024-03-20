@@ -10,6 +10,10 @@
     --cor-dendro-trans: #30aa00;
     --cor-hydro: #2eb2ff;
     --cor-hydro-trans: #0066b9;
+    --cor-pyro: #ff0000;
+    --cor-pyro-trans: #a00000;
+    --cor-cryo: #80ffdf;
+    --cor-cryo-trans: #00e1ff;
 }
 
 p{
@@ -45,7 +49,7 @@ figure{
   width: 930px;
   padding: 10px;
   text-align: center;
-  font-family: "Rajdhani", sans-serif
+  font-family: "Rajdhani", sans-serif;
 }
 
 #vento:hover{
@@ -56,7 +60,7 @@ figure{
   margin-right: auto;
   width: 930px;
   padding: 10px;
-  font-family: "Rajdhani", sans-serif
+  font-family: "Rajdhani", sans-serif;
 }
 
 h1{
@@ -74,7 +78,7 @@ h1{
     width: 930px;
     padding: 10px;
     text-align: center;
-    font-family: "Rajdhani", sans-serif
+    font-family: "Rajdhani", sans-serif;
 }
 
 #pedra:hover{
@@ -85,7 +89,7 @@ h1{
     margin-right: auto;
     width: 930px;
     padding: 10px;
-    font-family: "Rajdhani", sans-serif
+    font-family: "Rajdhani", sans-serif;
 }
 
 #raio{
@@ -98,7 +102,7 @@ h1{
     width: 930px;
     padding: 10px;
     text-align: center;
-    font-family: "Rajdhani", sans-serif
+    font-family: "Rajdhani", sans-serif;
 }
 
 #raio:hover{
@@ -109,7 +113,7 @@ h1{
     margin-right: auto;
     width: 930px;
     padding: 10px;
-    font-family: "Rajdhani", sans-serif
+    font-family: "Rajdhani", sans-serif;
 }
 
 #planta{
@@ -122,7 +126,7 @@ h1{
     width: 930px;
     padding: 10px;
     text-align: center;
-    font-family: "Rajdhani", sans-serif
+    font-family: "Rajdhani", sans-serif;
 }
 
 #planta:hover{
@@ -133,7 +137,7 @@ h1{
     margin-right: auto;
     width: 930px;
     padding: 10px;
-    font-family: "Rajdhani", sans-serif
+    font-family: "Rajdhani", sans-serif;
 }
 
 #agua{
@@ -146,7 +150,7 @@ h1{
     width: 930px;
     padding: 10px;
     text-align: center;
-    font-family: "Rajdhani", sans-serif
+    font-family: "Rajdhani", sans-serif;
 }
 
 #agua:hover{
@@ -157,5 +161,53 @@ h1{
     margin-right: auto;
     width: 930px;
     padding: 10px;
-    font-family: "Rajdhani", sans-serif
+    font-family: "Rajdhani", sans-serif;
+}
+
+#fogo{
+    border: 10px var(--cor-pyro-trans);
+    background-color: var(--cor-pyro);
+    transition: 1s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+}
+
+#fogo:hover{
+    border: 10px var(--cor-pyro);
+    background-color: var(--cor-pyro-trans);
+    transition: 1s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding: 10px;
+    font-family: "Rajdhani", sans-serif;
+}
+
+#gelo{
+    border: 10px var(--cor-cryo-trans);
+    background-color: var(--cor-cryo);
+    transition: 1s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+}
+
+#gelo:hover{
+    border: 10px var(--cor-cryo);
+    background-color: var(--cor-cryo-trans);
+    transition: 1s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 930px;
+    padding: 10px;
+    font-family: "Rajdhani", sans-serif;
 }
